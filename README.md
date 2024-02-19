@@ -72,7 +72,9 @@ s3.credentials.secret.key = aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
 ***
 
-## Usage (General)
+## Usage
+
+### Start the SMACC server and perform a simple test
 
 1. Start the server using **java**
 
@@ -86,7 +88,7 @@ java -cp target/smacc-2.0-jar-with-dependencies.jar edu.cut.smacc.server.main.Se
 java -cp target/smacc-2.0-jar-with-dependencies.jar edu.cut.smacc.test.basic.SimpleSmaccTester
 ```
 
-## Usage (SmaccClientCLI)
+### Start the SMACC server and use it with the SmaccClientCLI
 
 1. Start the server using **java**
 
@@ -129,3 +131,14 @@ Example: java -cp target/smacc-2.0-jar-with-dependencies.jar edu.cut.smacc.main.
 
 ```
 
+## Funding
+- AWS Cloud Credits for Research Grant, Amazon Web Services, October 2022
+
+## Developers
+- Theodoros Danos
+- Theodoros Theodorou
+- Michail D. Boronikolas
+- Andreas Efstathiou
+
+## Contact
+- Herodotos Herodotou, Cyprus University of Technology, [https://dicl.cut.ac.cy/](https://dicl.cut.ac.cy/)
